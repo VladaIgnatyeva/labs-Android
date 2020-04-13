@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
 
     tools:context=".RegisterActivity"
@@ -17,6 +17,7 @@
         android:fontFamily="serif-monospace"
         android:paddingVertical="45dp"
         android:text="Create an Account"
+        android:layout_gravity="center_horizontal"
         android:textAlignment="center"
         android:textColor="#AFAFAF"
         android:textSize="35sp"

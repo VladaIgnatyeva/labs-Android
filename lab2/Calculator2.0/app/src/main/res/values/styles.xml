@@ -25,4 +25,10 @@
 
     </style>
 
+    <style name="input_fields">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">43dp</item>
+    </style>
+
+
 </resources>
