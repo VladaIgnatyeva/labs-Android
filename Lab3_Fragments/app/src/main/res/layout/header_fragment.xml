@@ -4,9 +4,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="200dp"
     android:background="#e6e6e6"
-    tools:context=".HeaderFragment">
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/Add_Image"
@@ -41,7 +41,7 @@
     <ImageView
         android:id="@+id/PreView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_marginTop="0dp"
         android:foreground="#001BD873"
         android:scrollbarTrackVertical="@android:color/transparent"

@@ -67,11 +67,11 @@ public class Galery extends Fragment{
         switch (counter)
         {
             case 0:
-                Im7.setImageURI(image1);
+                Im0.setImageURI(image1);
                 counter += 1;
                 break;
             case 1:
-                Im6.setImageURI(image1);
+                Im1.setImageURI(image1);
                 counter += 1;
                 break;
             case 2:
