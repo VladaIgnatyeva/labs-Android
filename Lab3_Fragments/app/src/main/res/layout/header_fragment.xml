@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e6e6e6"
+    tools:context=".HeaderFragment">
+
+    <Button
+        android:id="@+id/Add_Image"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="150dp"
+        android:background="#a9a9ab"
+        android:text="Add"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/Close"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="150dp"
+        android:background="#a9a9ab"
+        android:text="Close"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/Browse_Image"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="150dp"
+        android:background="#a9a9ab"
+        android:text="Browse"
+        android:textColor="@android:color/background_light" />
+
+    <ImageView
+        android:id="@+id/PreView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:foreground="#001BD873"
+        android:scrollbarTrackVertical="@android:color/transparent"
+        tools:srcCompat="@android:color/transparent" />
+</FrameLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6"
+    android:orientation="vertical"
+    tools:context="com.example.lab3_fragments.Galery">
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:background="#828282"
+        android:text="New Image"
+        android:textColor="@android:color/background_light" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/I0"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></ImageView>
+
+            <ImageView
+                android:id="@+id/I1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></ImageView>
+
+            <ImageView
+                android:id="@+id/I2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></ImageView>
+
+            <ImageView
+                android:id="@+id/I3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></ImageView>
+
+            <ImageView
+                android:id="@+id/I4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></ImageView>
+
+            <ImageView
+                android:id="@+id/I5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></ImageView>
+
+            <ImageView
+                android:id="@+id/I6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></ImageView>
+
+            <ImageView
+                android:id="@+id/I7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></ImageView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
