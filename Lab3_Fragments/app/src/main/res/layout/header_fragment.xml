@@ -8,42 +8,55 @@
     android:background="#e6e6e6"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/Add_Image"
-        android:layout_width="130dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="140dp"
-        android:layout_marginTop="150dp"
-        android:background="#a9a9ab"
-        android:text="Add"
-        android:textColor="@android:color/background_light" />
+        android:orientation="horizontal"
+        android:id="@+id/buttons"
+        >
+        <Button
+            android:id="@+id/Browse_Image"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
 
-    <Button
-        android:id="@+id/Close"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="275dp"
-        android:layout_marginTop="150dp"
-        android:background="#a9a9ab"
-        android:text="Close"
-        android:textColor="@android:color/background_light" />
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="150dp"
+            android:background="#a9a9ab"
+            android:text="Browse"
+            android:textColor="@android:color/background_light" />
 
-    <Button
-        android:id="@+id/Browse_Image"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="150dp"
-        android:background="#a9a9ab"
-        android:text="Browse"
-        android:textColor="@android:color/background_light" />
+        <Button
+            android:id="@+id/Add_Image"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="150dp"
+            android:background="#a9a9ab"
+            android:text="Add"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/Close"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:background="#a9a9ab"
+            android:layout_marginLeft="5dp"
+            android:text="Close"
+            android:textColor="@android:color/background_light" />
+
+
+    </LinearLayout>
+
 
     <ImageView
         android:id="@+id/PreView"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="150dp"
         android:layout_marginTop="0dp"
         android:foreground="#001BD873"
         android:scrollbarTrackVertical="@android:color/transparent"
-        tools:srcCompat="@android:color/transparent" />
+        tools:srcCompat="@android:color/transparent"
+        app:layout_constraintTop_toBottomOf="@+id/buttons"/>
 </FrameLayout>

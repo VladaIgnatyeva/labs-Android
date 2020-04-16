@@ -17,10 +17,8 @@ import android.widget.ImageView;
 
 public class HeaderFragment extends Fragment
 {
-
     ImageView photo;
     Uri imageUri;
-
     public static int flag =0;
 
     @Override
@@ -44,7 +42,6 @@ public class HeaderFragment extends Fragment
                 intent.putExtra(Intent.EXTRA_MIME_TYPES,mimeTypes);
                 startActivityForResult(intent, 0);
             }
-
         });
 
         CloseButton.setOnClickListener(new View.OnClickListener()
@@ -57,7 +54,6 @@ public class HeaderFragment extends Fragment
                 fm.beginTransaction() .remove(fragment) .commit();
                 Galery.flag = 0;
             }
-
         });
 
         AddButton.setOnClickListener(new View.OnClickListener()
@@ -75,9 +71,7 @@ public class HeaderFragment extends Fragment
                     Galery.flag = 0;
                 }
             }
-
         });
-
         return view;
     }
 
@@ -93,6 +87,5 @@ public class HeaderFragment extends Fragment
                     break;
             }
     }
-
 }
 
